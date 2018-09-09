@@ -50,6 +50,28 @@ router.afterEach((to, from, next) => {
     window.scrollTo(0, 0);
 });
 
+// Vuex配置
+
+// const moduleA={
+//     state:{},
+//     mutations:{},
+//     actions:{},
+//     getters:{}
+// }
+// const moduleB={
+//     state:{},
+//     mutations:{},
+//     actions:{},
+//     getters:{}
+// }
+
+// const store=new Vuex.Store({
+//     models:{
+//         a:moduleA,
+//         b:moduleB
+//     }
+// })
+
 const store = new Vuex.Store({
     state: {
         count: 0,

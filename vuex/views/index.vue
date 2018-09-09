@@ -16,6 +16,7 @@
         computed: {
             count () {
                 return this.$store.state.count;
+                // return this.$store.state.a.count;
             },
             list () {
                 return this.$store.getters.filteredList;
